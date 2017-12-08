@@ -125,7 +125,7 @@ io.on('connection', function(socket) {
       var coursesRemaining = 'Cloud, Operating Systems , Fayad';
       // console.log("response json:" + JSON.stringify(response));
       var intent = response.result.metadata.intentName;
-  //    console.log("intent name:" + intent);
+      // console.log("intent name:" + intent);
 
       if(intent === 'gpa')
         aiText = response.result.fulfillment.speech + gpa;
