@@ -90,7 +90,7 @@ body {
   margin: 0;
   font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", "Lucida Sans Typewriter", sans-serif;
   font-weight: 300;
-  background: url(../images/background.png) repeat;
+  background: url(../images/Background.png) repeat;
   background-size: cover;
   color: #333;
 }
