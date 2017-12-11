@@ -4,6 +4,11 @@ var router = express.Router();
 // Get Homepage
 
 router.get('/', function(req, res){
+	res.locals.metaTags = {
+      title: "SanJose State University - SJSUBot",
+      description: "A simple chatbot designed for SJSU students",
+      keywords: "sjsubot, Chatbot, Chatbot for Students, university, botsjsu, chatme, san jose state university, bot for universities"
+    };
 	res.render('landingpage', {layout: false});
 	// res.render('index', function(err, result) {
 	//     // render on success
