@@ -139,7 +139,7 @@ io.on('connection', function(socket) {
 				if(intent === 'gpa')
 				aiText = response.result.fulfillment.speech + " " + user.gpa;
 			 if(intent === 'feesDue')
-				 aiText = response.result.fulfillment.speech + " " + user.due_fees;
+				 aiText = response.result.fulfillment.speech + " $" + user.due_fees;
 			if(intent === 'upcomingQuizzes')
 				aiText = response.result.fulfillment.speech + " " + user.upcoming_quizzes;
 				if(intent === 'dueAssignments')
